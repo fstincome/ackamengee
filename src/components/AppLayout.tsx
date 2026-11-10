@@ -222,7 +222,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
           <div className="hidden lg:flex items-center gap-2">
             <span className="label-eyebrow">American Corner</span>
             <span className="h-3 w-px bg-border" />
-            <span className="font-serif text-base text-foreground">Ngozi</span>
+            <span className="font-serif text-base text-foreground">Kamenge</span>
             <span className="h-3 w-px bg-border" />
             <span className="text-sm text-muted-foreground tabular-nums">
               {now.toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric", year: "numeric" })} · {now.toLocaleTimeString("en-US", { hour: "2-digit", minute: "2-digit", second: "2-digit" })}
@@ -238,7 +238,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
         <main className="flex-1 overflow-y-auto p-5 lg:p-8">
           {children}
           <footer className="mt-10 border-t border-border/60 pt-4 text-center text-xs text-muted-foreground">
-            © {new Date().getFullYear()} American Corner Ngozi. All rights reserved. · Made with ❤️ by{" "}
+            © {new Date().getFullYear()} American Corner Kamenge. All rights reserved. · Made with ❤️ by{" "}
             <a href="https://www.freeti.org" target="_blank" rel="noopener noreferrer" className="font-semibold text-primary hover:underline">Freeti</a>
           </footer>
         </main>

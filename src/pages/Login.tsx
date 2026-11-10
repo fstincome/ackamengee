@@ -54,13 +54,13 @@ export default function Login() {
         <div className="relative z-10 flex items-center gap-3">
           <img
             src={logoGss}
-            alt="American Corner Ngozi"
+            alt="American Corner Kamenge"
             className="h-12 w-12 rounded border border-white/30 bg-white/10 object-contain p-1"
           />
           <div>
             <p className="font-serif text-xl leading-none">American Corner</p>
             <p className="text-xs uppercase tracking-[0.2em] text-white/70 mt-1">
-              Ngozi · Burundi
+              Kamenge · Burundi
             </p>
           </div>
         </div>
@@ -75,7 +75,7 @@ export default function Login() {
             Member &amp; Activities Management
           </h2>
           <p className="text-base text-white/80 max-w-md leading-relaxed">
-            A unified workspace for the American Corner Ngozi team — visitors
+            A unified workspace for the American Corner Kamenge team — visitors
             and programs, all in one place.
           </p>
           <div className="flex items-center gap-3 pt-4">
@@ -105,7 +105,7 @@ export default function Login() {
                 American Corner
               </p>
               <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mt-1">
-                Ngozi
+                Kamenge
               </p>
             </div>
           </div>
@@ -181,10 +181,10 @@ export default function Login() {
           </form>
 
           <p className="mt-10 text-[11px] uppercase tracking-[0.25em] text-muted-foreground text-center">
-            American Corner Ngozi · National Coordination
+            American Corner Kamenge · National Coordination
           </p>
           <p className="mt-3 text-xs text-muted-foreground text-center">
-            © {new Date().getFullYear()} American Corner Ngozi · Made with ❤️ by{" "}
+            © {new Date().getFullYear()} American Corner Kamenge · Made with ❤️ by{" "}
             <a href="https://www.freeti.org" target="_blank" rel="noopener noreferrer" className="font-semibold text-primary hover:underline">Freeti</a>
           </p>
         </div>
