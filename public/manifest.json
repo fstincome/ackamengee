@@ -1,7 +1,7 @@
 {
-  "name": "American Corner",
+  "name": "American Corner Kamenge",
   "short_name": "AC",
-  "description": "American Corner - Système de gestion d'accès",
+  "description": "Visitor and program management for American Corner Kamenge, Burundi.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#1a3a5c",
