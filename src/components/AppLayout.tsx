@@ -17,6 +17,7 @@ import {
   ChevronDown,
   Shield,
   Lock,
+  BookOpen,
 } from "lucide-react";
 
 export default function AppLayout({ children }: { children: React.ReactNode }) {
@@ -189,6 +190,9 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
         </nav>
 
         {/* User profile */}
+        <div className="relative z-10 border-t border-sidebar-border/50 px-3 py-3">
+          {renderNavItem({ to: "/user-guide", icon: BookOpen, label: "User Guide" })}
+        </div>
         <div className="relative z-10 border-t border-sidebar-border/50 bg-black/20 p-4">
           <div className="flex items-center gap-3 rounded-xl bg-sidebar-accent/40 px-3 py-3">
             <div className="flex h-9 w-9 items-center justify-center rounded-full font-semibold text-xs text-primary-foreground" style={{ background: "var(--gradient-primary)" }}>

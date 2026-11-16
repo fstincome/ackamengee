@@ -1,5 +1,8 @@
 # American Corner — Documentation Technique Complète
 
+## English user handbook
+Signed-in staff can open `/user-guide` using **User Guide** at the bottom of the menu. `src/pages/UserGuide.tsx` renders `src/content/user-guide.json`. The same content is used by `scripts/generate-user-guide.py` to prebuild `public/downloads/american-corner-kamenge-user-guide.pdf`. The download is a same-origin static link; no browser PDF-generation library or new database permissions are required.
+
 ## 🏢 Vue d'ensemble
 
 **American Corner** — *American Corner Visitor Management System*

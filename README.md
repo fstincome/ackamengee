@@ -2,6 +2,9 @@
 
 **American Corner — Visitor Management System**
 
+### User handbook
+The English **User Guide** is available at `/user-guide` to signed-in staff, with its link at the bottom of the sidebar. The downloadable PDF is served from `public/downloads/american-corner-kamenge-user-guide.pdf`. Both editions use `src/content/user-guide.json`; regenerate the PDF after content changes with `python3 scripts/generate-user-guide.py` (ReportLab and fontconfig required).
+
 Système moderne de gestion des visiteurs pour le centre numérique [American Corner](https://gssaccess.lovable.app) au Burundi. Suivi en temps réel de la fréquentation, gestion des programmes éducatifs et pointage par QR code.
 
 ![React](https://img.shields.io/badge/React-18-blue?logo=react)

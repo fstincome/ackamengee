@@ -19,6 +19,7 @@ import RegistrationForm from "@/pages/RegistrationForm";
 import Login from "@/pages/Login";
 import UserManagement from "@/pages/UserManagement";
 import AccessControl from "@/pages/AccessControl";
+import UserGuide from "@/pages/UserGuide";
 import NotFound from "@/pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -38,6 +39,7 @@ const App = () => (
 
             {/* All authenticated: Dashboard */}
             <Route path="/" element={<ProtectedRoute><AppLayout><Dashboard /></AppLayout></ProtectedRoute>} />
+            <Route path="/user-guide" element={<ProtectedRoute><AppLayout><UserGuide /></AppLayout></ProtectedRoute>} />
 
             {/* Admin + Director */}
             <Route path="/register" element={<ProtectedRoute allowedRoles={["admin","american_center","american_corner_gitega","coordinator","program_manager"]}><AppLayout><RegisterVisitor /></AppLayout></ProtectedRoute>} />

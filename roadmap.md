@@ -13,5 +13,6 @@
 
 ## Open
 
+- [ ] Add an English user guide at the bottom of the menu and a clean downloadable PDF; verify the page and download.
 - [x] Rebrand the app from Ngozi to Kamenge across user-facing screens, role labels, and printed membership/registration forms.
 - [ ] Create the initial administrator account — blocked: the copied backend has no user for the requested email, and a first admin cannot be created through the admin-only staff form.
