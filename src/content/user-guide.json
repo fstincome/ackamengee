@@ -1,0 +1,128 @@
+{
+  "title": "User Guide",
+  "organization": "American Corner Kamenge",
+  "subtitle": "A practical handbook for members, attendance and staff administration.",
+  "edition": "November 2026",
+  "sections": [
+    {
+      "id": "getting-started",
+      "title": "Getting started",
+      "summary": "Sign in with your staff account and find your daily tools.",
+      "steps": [
+        "Open the application and enter the email address and password supplied by your administrator. Select Sign in.",
+        "Use the menu on the left to open a page. On a phone, open the menu using the menu icon at the top.",
+        "Start on Dashboard to review today's activity. The top bar on desktop displays the current date and time.",
+        "Use the sign-out icon beside your staff profile when you finish, especially on a shared device."
+      ],
+      "note": "An internet connection is required. Available pages and actions depend on your account's access. If access is denied, ask an administrator to review your role."
+    },
+    {
+      "id": "register-members",
+      "title": "Register a member",
+      "summary": "Create a member record before recording their first visit.",
+      "steps": [
+        "Open Register Member from the menu and complete the fields marked as required, including the member's personal and contact information.",
+        "Check names and contact details carefully. If a possible duplicate is shown, review the existing record before creating another member.",
+        "Submit the form and wait for the confirmation. The application assigns a member ID using the ACG- prefix.",
+        "Keep the member's ID and QR card available for future visits. Use the paper registration form when you need to collect details on paper, then enter them in the application."
+      ],
+      "note": "A member record is not a staff sign-in account. Staff accounts are managed separately under User Management."
+    },
+    {
+      "id": "members-cards",
+      "title": "Members and QR cards",
+      "summary": "Find a member, review their profile and provide their card.",
+      "steps": [
+        "Open Members and use the search field to locate an existing member.",
+        "Select a member to review their profile and visit information. Use the available edit controls to correct details when your role allows it.",
+        "Open the membership card controls to view the QR card. Use the available download, print or sharing options as needed.",
+        "Ask the member to present their QR code or member ID at reception on each visit."
+      ],
+      "note": "A general membership QR code identifies the member for center visits. A program participant card has a separate code for program attendance. Use the correct card."
+    },
+    {
+      "id": "center-visits",
+      "title": "Center check-in and check-out",
+      "summary": "Record arrival and departure at the center independently of room visits.",
+      "steps": [
+        "Open QR Scanner. Select Open camera and allow camera access, or type the member ID and select Search.",
+        "Confirm that the displayed name and ID belong to the member in front of you.",
+        "On arrival, select Check-in Center. Wait for the confirmation and the In Center status.",
+        "On departure, scan or search for the same member and select Check-out Center. Review Recent activity to confirm the event."
+      ],
+      "note": "Center presence and room presence are recorded separately. Checking out of a room does not record departure from the center; record both when appropriate."
+    },
+    {
+      "id": "room-visits",
+      "title": "Computer Lab and other spaces",
+      "summary": "Track use of the Computer Lab, Discussion Room and Reading Lounge.",
+      "steps": [
+        "Find the member on QR Scanner and review the space status badges.",
+        "For the Discussion Room or Reading Lounge, choose the intended stay duration before checking the member in.",
+        "Select the check-in button for the correct space. If the Computer Lab is full, wait for a place to become available.",
+        "When the member leaves a space, scan or search again and select its check-out button. Check Dashboard for current occupancy and remaining time."
+      ],
+      "note": "The Computer Lab uses a fixed stay duration. The application records expected check-out times; always record actual departures rather than relying only on automatic check-out."
+    },
+    {
+      "id": "dashboard-statistics",
+      "title": "Dashboard and Statistics",
+      "summary": "Review today's activity and explore attendance trends.",
+      "steps": [
+        "Use Dashboard for today's check-ins, check-outs, currently inside counts and occupancy by space.",
+        "Select a count to open the corresponding member list and inspect the records behind the number.",
+        "Open Statistics and use the available date and view controls to review the period you need.",
+        "Review chart legends and details. Select interactive counts or chart entries to inspect the associated members or visit history."
+      ],
+      "note": "Check-in and check-out totals count events, while unique-member counts count people. One member may generate several events. Center occupancy and room occupancy describe different records."
+    },
+    {
+      "id": "programs",
+      "title": "Programs, participants and sessions",
+      "summary": "Prepare a program and its participants before taking attendance.",
+      "steps": [
+        "Open Programs and select an existing program, or create one using New program when that action is available.",
+        "Enter the program name and its details, then save. Open the program to manage its participants and sessions.",
+        "Search existing members when adding participants. Review possible matches before creating a new participant, and assign the appropriate participant role.",
+        "Create the session for the scheduled date. Provide participants with their program-specific QR card or participant code."
+      ],
+      "note": "Program editing and deletion are available only where authorized. Confirm the program and session details before recording attendance."
+    },
+    {
+      "id": "program-attendance",
+      "title": "Program attendance and reports",
+      "summary": "Mark attendance for the right program and session, then review results.",
+      "steps": [
+        "Open Program Attendance and choose the program, session and space. Verify the selected session date.",
+        "Scan the participant's program QR code or enter their participant code to mark them present. Use the available participant-list actions for manual attendance where needed.",
+        "Review the Present, Waiting and Absent lists. Search by participant name or code to check an individual record.",
+        "Open Program Report, select the program and review attendance by session and participant. Use the available filters to inspect the results."
+      ],
+      "note": "If a participant is not found, check their enrollment and use their program-specific code. If they are already present or marked absent, review the record instead of repeatedly scanning."
+    },
+    {
+      "id": "staff-access",
+      "title": "Staff accounts and access control",
+      "summary": "Administrator tools for staff profiles and module permissions.",
+      "steps": [
+        "Open User Management to create a staff account. Complete the required identity, contact, employment and emergency-contact fields, and choose the staff role.",
+        "If uploading a staff photo, use an image no larger than 2 MB. Save the account and verify that it appears in the staff list.",
+        "Use the staff row actions to edit a profile or reset a password when needed. Share sign-in details privately with the staff member.",
+        "Open Access Control. Under By Role, select a role and set the module checkboxes for View, Create, Update and Delete. Use By User (override) for individual exceptions, and clear an override to return to the role settings."
+      ],
+      "note": "Read-only access uses View without Create, Update or Delete. Full CRUD includes all four actions. Administrator and American Center are system full-access roles. Never share passwords in reports or public messages."
+    },
+    {
+      "id": "troubleshooting",
+      "title": "Daily checks and troubleshooting",
+      "summary": "Resolve common problems and keep attendance records reliable.",
+      "steps": [
+        "If the camera does not open, allow camera access in your browser settings and close other apps using it. You can enter the ID manually instead.",
+        "If a member is not found, check the spelling of the ID and confirm registration. For program attendance, verify the program and participant code.",
+        "If saving fails, check your internet connection and access rights. Review the list or recent activity before retrying, to avoid duplicate records.",
+        "At the end of the day, review center and room occupancy, record missed departures, and check program attendance. Sign out from shared devices."
+      ],
+      "note": "Keep member information private. Downloaded files and shared card links should only be given to the intended recipient. Ask an administrator for account or access issues."
+    }
+  ]
+}
